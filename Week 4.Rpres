@@ -1,0 +1,50 @@
+Week 4 - Mini Data Product
+========================================================
+author: iopic
+date: August 2016
+autosize: true
+
+The Goal
+========================================================
+
+For this project, we want to create a toy Shiny app that, at minimum,
+allows users to have some kind of interaction and for that interaction
+to affect the output that is displayed.
+
+The purpose of this deck is to motivate the app, and also to include
+some kind of R code somewhere!
+
+- Let's get the R code out of the way, and generate 10 random numbers from a normal distribution
+```{r}
+rnorm(10,0,1)
+```
+
+
+The App
+========================================================
+
+This app is a simple data explorer that uses data pulled from NOAA to look at trends in
+high and low monthly temperatures for Washington, D.C. Users choose the following:
+- Date Range
+- Month
+- Max or Min temperatures
+
+These parameters alter the plot of temperature trends that is displayed.
+
+
+Why We Care
+========================================================
+
+What is the value of this app, you might ask? Well, there are concerns about the rising
+global temperatures, or really just the more erratic climate that global warming is creating.
+This app takes a quick look to see whether these trends seem to bear out for this one area
+in the US.
+
+Next Steps
+==========================
+
+There are many ways this app could be developed to be a more interesting product. Some ideas include:
+
+- Allowing exploration of more geographic locations
+- Allowing comparision of trends across different locations, across time
+- Expanding the date range made available
